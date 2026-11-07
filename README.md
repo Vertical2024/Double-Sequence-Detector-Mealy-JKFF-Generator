@@ -1,2 +1,2 @@
 # Double-Sequence-Detector-Mealy-JKFF-Generator
-A complete Mealy dual-sequence detector solver
+A complete Mealy dual-sequence detector solver comprises the following four steps: 1. Automatic Overlapping Prefix Graph Construction: Solving for all prefixes and constructing state transition and output dictionaries. 2. State Encoding and Excitation Generation: Mapping states to binary codes (Q_2 Q_1 Q_0) to generate truth tables for J, K (or T) and Y_1, Y_0. 3. Logic Minimization: Automatically calculating the minimum logical expression using sympy's SOPform. 4. Safety Verification: Checking whether the simplified expression generates illegal outputs under unused states.
